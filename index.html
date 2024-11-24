@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+
+        <div id="nav">
+
+            <div class="logo" >
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlJ2K5WzvTHcRoDCf3rjjSnDCBUKMplGkHtQ&s" alt="">
+            </div>
+            <div class="search">
+              <input type="search" name="searchbar" id="searchbar">
+               <div class="searchicon" style="font-size:2vw;position: absolute;right: 10px;top: 6px;"><i class="fa-solid fa-magnifying-glass"></i></div>
+            </div>
+            <div id="icon">
+                <i class="fa-solid fa-bars" id="menubar"></i>
+                <i id="cancel" class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="wish">
+              <a href="wishlist.html" style="text-decoration: none; color: white;">
+                <i class="fa-regular fa-heart"></i>
+                <span id="count"></span>
+                <br>
+                 wishlist </a></div>
+        
+            <ul id="navitem">
+              <a href="index.html">
+                <li>home <br>
+                  <i class="fa-solid fa-house"></i>
+        
+                </li>
+              </a>
+                <a href="about.html">
+                  <li>about <br><i class="fa-regular fa-address-card"></i>
+        
+                  </li>
+              </a>    
+                <a href="destination.html">
+                    <li><i class="fa-solid fa-plane"></i> <br>
+                      destinations
+                    </li>
+                </a>
+                <a href="login.html">
+                  <li>
+                    <button style="background-color:rgb(8, 168, 147) ; height: 6vh; width: 99px; border: none; border-radius: 10px;">login</button>
+        
+                  </li>
+              </a>
+              <a href="faq.html">
+                <li>
+                  <i class="fa-solid fa-clipboard-question"></i> <br>
+        FAQs
+                </li>
+            </a>
+           
+        
+              
+          
+        
+            </ul>
+           
+          </div>
+          <!-- nav ends here -->
+
+          <div class="slider">
+            <!-- slider start -->
+            <div  id="slidecontainer" id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+              <div  id="a" class="carousel-inner">
+                <div id="b" class="carousel-item active">
+                  <img src="https://static.langimg.com/thumb/85174721/navbharat-times-85174721.jpg?imgsize=181278&width=540&resizemode=3" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvNUDNDwTngIxFUvpR4IE10eKIQl-V-THzOA&s" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://www.holidify.com/images/bgImages/NALANDA.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+<!--slider end -->
+          </div>
+          <h1 style="margin: 2vh 3vw; text-transform: uppercase;">
+            famous attraction
+          </h1>
+          <section>
+           
+            <div class="destination">
+              <div id = "card" class="card" style="width: 14rem; backdrop-filter: blur(5px);">
+                <a href="fullview.html" style="text-decoration: none;">
+
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjZuBEb0S9UeyqHCWcRSeBkm5e2-m1h-OCeg&s" id="img" class="card-img-top" alt="...">
+                </a>
+                <div id="text">
+                  <h3 style="font-size: 1.8rem; margin-top: 8px; text-transform: capitalize;">BODH GAYA</h3>
+                  <h4>Gaya,Bihar</h4>
+                  <div id="control">
+
+                    <button  >add to wishlist </button>
+                    <i style="color:black" class="fa-regular fa-heart"></i>
+
+                  </div>
+                </div>
+              </div>
+            
+
+            </div>
+          </section>
+          <h1 style="margin: 2vh 3vw;  text-transform: uppercase">
+            art & craft
+          </h1>
+          
+
+          <section>
+            <div class="art">
+
+            </div>
+
+          </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer id="footer" style="display: flex;">
+ 
+</footer>
+
+
+
+
+    </div>
+
+
+<script src="data.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
